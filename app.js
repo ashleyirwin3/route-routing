@@ -10,11 +10,11 @@ app.config( function ($routeProvider, $locationProvider) {
   $routeProvider
     .when('/', {
       controller: '66Ctrl',
-      templateURL: 'partials/66.html'
+      templateUrl: 'partials/66.html'
     })
     .when('/blue', {
       controller: 'BlueCtrl',
-      templateURL: 'partials/blue.html'
+      templateUrl: 'partials/blue.html'
     })
     .otherwise({redirectTo:'/'})
 })

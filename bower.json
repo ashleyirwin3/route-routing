@@ -1,0 +1,21 @@
+{
+  "name": "route-routing",
+  "homepage": "https://github.com/ashleyirwin3/route-routing",
+  "authors": [
+    "Ashley Irwin <ashleykayirwin3@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "^1.6.1",
+    "angular": "^1.6.1"
+  }
+}
