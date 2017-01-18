@@ -20,11 +20,13 @@ app.config( function ($routeProvider, $locationProvider) {
 })
 
 app.controller('66Ctrl', function($scope) {
-  $scope.highway = "route 66"
+  $scope.highwayName = "Route 66"
+  $scope.highwayDescription = "This is a highway"
   console.log('66')
 })
 
 app.controller('BlueCtrl', function($scope) {
-  $scope.highway = "Blue Ridge"
+  $scope.highwayName = "Blue Ridge Parkway"
+  $scope.highwayDescription= "This is another highway"
   console.log('blue')
 })
